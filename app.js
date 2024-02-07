@@ -15,7 +15,5 @@ const options = [
 btnGetAPrediction.addEventListener('click', () => {
     const randomFortuneIndex = Math.floor(Math.random () *options.length);    
     const prediction = options[randomFortuneIndex];
-
-    resultMessage =
     displayResult.innerHTML = prediction;
 });
